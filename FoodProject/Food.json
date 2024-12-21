@@ -1,0 +1,52 @@
+[
+    {
+        "foodName":"Burger",
+        "foodImage":"burger.image",
+        "item": [
+            {
+                "itemName": "BigFoot burger",
+                "itemImage":"bigfoot.image",
+                "price": 5.50
+            },
+            {
+                "itemName": "Cheese burger",
+                "itemImage":"cheese.image",
+                "price": 6.40
+            },
+            {
+                "itemName": "BeefCake burger",
+                "itemImage":"beefCake.image",
+                "price": 5.20
+            },
+            {
+                "itemName": "Bbq burger",
+                "itemImage":"bbq.image",
+                "price": 8.50
+            },
+            {
+                "itemName": "Chicken burger",
+                "itemImage":"chicken.image",
+                "price": 7.60
+            }
+        ]
+        
+    },
+    {
+        "foodName":"Asia",
+        "foodImage":"asia.image",
+        "item": [
+            {
+                "itemName": "Kimbap",
+                "itemImage":"kimbap.image",
+                "price": 3.20
+            },
+            {
+                "itemName": "Ramen",
+                "itemImage":"ramen.image",
+                "price": 6.40
+            }
+        
+    }
+    
+]
+ 

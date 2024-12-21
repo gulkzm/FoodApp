@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		24DC2B112D16D4000010D2D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC2B102D16D4000010D2D7 /* AppDelegate.swift */; };
 		24DC2B132D16D4000010D2D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC2B122D16D4000010D2D7 /* SceneDelegate.swift */; };
-		24DC2B152D16D4000010D2D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC2B142D16D4000010D2D7 /* ViewController.swift */; };
 		24DC2B182D16D4000010D2D7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 24DC2B172D16D4000010D2D7 /* Base */; };
 		24DC2B1A2D16D4040010D2D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DC2B192D16D4040010D2D7 /* Assets.xcassets */; };
 		24DC2B1D2D16D4040010D2D7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 24DC2B1C2D16D4040010D2D7 /* Base */; };
-		24DC2B282D16D4040010D2D7 /* FoodProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC2B272D16D4040010D2D7 /* FoodProjectTests.swift */; };
-		24DC2B322D16D4040010D2D7 /* FoodProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC2B312D16D4040010D2D7 /* FoodProjectUITests.swift */; };
-		24DC2B342D16D4040010D2D7 /* FoodProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC2B332D16D4040010D2D7 /* FoodProjectUITestsLaunchTests.swift */; };
+		24DC2B422D16D7470010D2D7 /* Food.json in Resources */ = {isa = PBXBuildFile; fileRef = 24DC2B412D16D7470010D2D7 /* Food.json */; };
+		24DC2B442D16D94E0010D2D7 /* FoodListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC2B432D16D94E0010D2D7 /* FoodListController.swift */; };
+		24DC2B482D16DA6F0010D2D7 /* FoodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC2B472D16DA6F0010D2D7 /* FoodListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +38,15 @@
 		24DC2B0D2D16D4000010D2D7 /* FoodProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DC2B102D16D4000010D2D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24DC2B122D16D4000010D2D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		24DC2B142D16D4000010D2D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24DC2B172D16D4000010D2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24DC2B192D16D4040010D2D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24DC2B1C2D16D4040010D2D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24DC2B1E2D16D4040010D2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24DC2B232D16D4040010D2D7 /* FoodProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		24DC2B272D16D4040010D2D7 /* FoodProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodProjectTests.swift; sourceTree = "<group>"; };
 		24DC2B2D2D16D4040010D2D7 /* FoodProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		24DC2B312D16D4040010D2D7 /* FoodProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodProjectUITests.swift; sourceTree = "<group>"; };
-		24DC2B332D16D4040010D2D7 /* FoodProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24DC2B412D16D7470010D2D7 /* Food.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Food.json; sourceTree = "<group>"; };
+		24DC2B432D16D94E0010D2D7 /* FoodListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListController.swift; sourceTree = "<group>"; };
+		24DC2B472D16DA6F0010D2D7 /* FoodListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				24DC2B0F2D16D4000010D2D7 /* FoodProject */,
-				24DC2B262D16D4040010D2D7 /* FoodProjectTests */,
-				24DC2B302D16D4040010D2D7 /* FoodProjectUITests */,
 				24DC2B0E2D16D4000010D2D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,33 +95,35 @@
 		24DC2B0F2D16D4000010D2D7 /* FoodProject */ = {
 			isa = PBXGroup;
 			children = (
+				24DC2B452D16D9EC0010D2D7 /* Scene */,
 				24DC2B102D16D4000010D2D7 /* AppDelegate.swift */,
-				24DC2B122D16D4000010D2D7 /* SceneDelegate.swift */,
-				24DC2B142D16D4000010D2D7 /* ViewController.swift */,
-				24DC2B162D16D4000010D2D7 /* Main.storyboard */,
 				24DC2B192D16D4040010D2D7 /* Assets.xcassets */,
-				24DC2B1B2D16D4040010D2D7 /* LaunchScreen.storyboard */,
+				24DC2B412D16D7470010D2D7 /* Food.json */,
 				24DC2B1E2D16D4040010D2D7 /* Info.plist */,
+				24DC2B1B2D16D4040010D2D7 /* LaunchScreen.storyboard */,
+				24DC2B162D16D4000010D2D7 /* Main.storyboard */,
+				24DC2B122D16D4000010D2D7 /* SceneDelegate.swift */,
 			);
 			path = FoodProject;
 			sourceTree = "<group>";
 		};
-		24DC2B262D16D4040010D2D7 /* FoodProjectTests */ = {
+		24DC2B452D16D9EC0010D2D7 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				24DC2B272D16D4040010D2D7 /* FoodProjectTests.swift */,
+				24DC2B462D16DA510010D2D7 /* FoodList */,
 			);
-			path = FoodProjectTests;
+			path = Scene;
 			sourceTree = "<group>";
 		};
-		24DC2B302D16D4040010D2D7 /* FoodProjectUITests */ = {
+		24DC2B462D16DA510010D2D7 /* FoodList */ = {
 			isa = PBXGroup;
 			children = (
-				24DC2B312D16D4040010D2D7 /* FoodProjectUITests.swift */,
-				24DC2B332D16D4040010D2D7 /* FoodProjectUITestsLaunchTests.swift */,
+				24DC2B432D16D94E0010D2D7 /* FoodListController.swift */,
+				24DC2B472D16DA6F0010D2D7 /* FoodListViewModel.swift */,
 			);
-			path = FoodProjectUITests;
-			sourceTree = "<group>";
+			name = FoodList;
+			path = FoodProject/FoodList;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -232,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24DC2B1A2D16D4040010D2D7 /* Assets.xcassets in Resources */,
+				24DC2B422D16D7470010D2D7 /* Food.json in Resources */,
 				24DC2B1D2D16D4040010D2D7 /* Base in Resources */,
 				24DC2B182D16D4000010D2D7 /* Base in Resources */,
 			);
@@ -258,8 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DC2B152D16D4000010D2D7 /* ViewController.swift in Sources */,
 				24DC2B112D16D4000010D2D7 /* AppDelegate.swift in Sources */,
+				24DC2B442D16D94E0010D2D7 /* FoodListController.swift in Sources */,
+				24DC2B482D16DA6F0010D2D7 /* FoodListViewModel.swift in Sources */,
 				24DC2B132D16D4000010D2D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DC2B282D16D4040010D2D7 /* FoodProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DC2B342D16D4040010D2D7 /* FoodProjectUITestsLaunchTests.swift in Sources */,
-				24DC2B322D16D4040010D2D7 /* FoodProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
