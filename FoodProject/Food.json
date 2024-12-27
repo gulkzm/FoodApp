@@ -6,7 +6,8 @@
             {
                 "itemName": "BigFoot burger",
                 "itemImage":"bigfoot.image",
-                "price": 5.50
+                "price": 5.50,
+                "currency": "$"
             },
             {
                 "itemName": "Cheese burger",
@@ -45,8 +46,23 @@
                 "itemImage":"ramen.image",
                 "price": 6.40
             }
-        
+        ]
+    },
+    {
+        "foodName":"Italy",
+        "foodImage":"italy.image",
+        "item": [
+            {
+                "itemName": "Kimbap",
+                "itemImage":"kimbap.image",
+                "price": 3.20
+            },
+            {
+                "itemName": "Ramen",
+                "itemImage":"ramen.image",
+                "price": 6.40
+            }
+        ]
     }
-    
 ]
  
